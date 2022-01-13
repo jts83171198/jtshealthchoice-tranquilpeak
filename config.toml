@@ -70,7 +70,7 @@ canonifyurls = true
 [[menu.main]]
   weight = 2
   identifier = "product"
-  name = "研選商品"
+  name = "研選產品"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-store\" aria-hidden=\"true\"></i>"
   #url = "https://shopee.tw/htchou2395"
   url = "/products"
