@@ -75,37 +75,43 @@ canonifyurls = true
   url = "/products"
 [[menu.main]]
   weight = 3
+  identifier = "purchase"
+  name = "購買連結"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-shopping-cart\" aria-hidden=\"true\"></i>"
+  url = "/purchase"
+[[menu.main]]
+  weight = 4
   identifier = "recipes"
   name = "家常食譜"
   pre = "<i class=\"sidebar-button-icon fas fa-light fa-utensils\" aria-hidden=\"true\"></i>"
   url = "/categories/家常食譜"
 [[menu.main]]
-  weight = 4
+  weight = 5
   identifier = "categories"
   name = "文章分類"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
   url = "/categories"
 [[menu.main]]
-  weight = 5
+  weight = 6
   identifier = "tags"
   name = "文章標籤"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
   url = "/tags"
 [[menu.main]]
-  weight = 6
+  weight = 7
   identifier = "archives"
   name = "所有文章"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
   url = "/archives"
 [[menu.main]]
-  weight = 6
+  weight = 8
   identifier = "about-us"
   name = "關於我們"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
   #url = "/#about"
   url = "/about"
 [[menu.main]]
-  weight = 7
+  weight = 9
   identifier = "contact"
   name = "聯絡我們"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-at\" aria-hidden=\"true\"></i>"
